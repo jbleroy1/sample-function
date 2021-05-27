@@ -9,5 +9,5 @@ steps:
   - --allow-unauthenticated
   - --runtime=nodejs14
   - --region=us-central1
-  - --source=.
+  - --source=./subfolder
   - --trigger-http
