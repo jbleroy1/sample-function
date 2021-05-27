@@ -5,6 +5,7 @@ steps:
   - functions
   - deploy
   - fromgithub
+  - --runtime=nodejs14
   - --region=us-central1
   - --source=.
   - --trigger-http
