@@ -4,7 +4,7 @@ steps:
   - gcloud
   - functions
   - deploy
-  - fromgithub
+  - fromgithubsub
   - --entry-point=helloWorld
   - --allow-unauthenticated
   - --runtime=nodejs14
