@@ -5,6 +5,8 @@ steps:
   - functions
   - deploy
   - fromgithub
+  - --entry-point=helloWorld
+  - --allow-unauthenticated
   - --runtime=nodejs14
   - --region=us-central1
   - --source=.
